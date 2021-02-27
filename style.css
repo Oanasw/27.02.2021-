@@ -1,0 +1,106 @@
+body {
+  background-color: hsl(185, 75%, 39%);
+  color: hsl(229, 23%, 23%);
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  font-weight:bold;
+  text-align: center;
+}
+main {
+    background-color: hsl(185, 75%, 39%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+span{
+  color: hsl(227, 10%, 46%);
+  font-weight: normal;
+}
+
+.circles .c1, .circles .c2 {
+    position: absolute;
+}
+
+.circles .c1 {
+    top: -570px;
+    left: -333px;
+}
+
+.circles .c2 {
+    bottom: -656px;
+    right: -325px;
+}
+
+.Oana {
+  background-color: white;
+  border-radius: 100%;
+  border: 5px solid white;
+  display: block;
+  margin: auto;
+  position: relative;
+  top: -50px;
+  bottom: 50px;
+  width:100px;
+
+}
+
+
+.London {
+    color: hsl(227, 10%, 46%);
+    font-size: 14px;
+    font-weight: normal;
+      width: 50%;
+
+}
+
+.card {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.wholecard {
+  background-color: white;
+border-radius: 20px;
+  margin: auto;
+  height: 370px;
+  width: 350px;
+  position: absolute;
+}
+.table1 {
+  margin: auto;
+  width: 50%;
+  position: relative;
+  bottom: 20px;
+}
+
+.table2 {
+  margin: auto;
+  padding-top: 10PX;
+  width: 50%;
+}
+.numbers {
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.likes {
+  color: hsl(227, 10%, 46%);
+  font-size: 8px;
+  font-weight: lighter;
+  width: 70%
+}
+
+.up {
+  position: absolute;
+  top: -570px;
+  left: -333px;
+}
+
+.down {
+  position: absolute;
+  bottom: -656px;
+  right: -325px;
+}
